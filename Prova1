@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test di Attenzione</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f4f4f4;
+        }
+        .container {
+            display: flex;
+            gap: 20px;
+        }
+        .box {
+            width: 300px;
+            height: 200px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            font-size: 20px;
+            font-weight: bold;
+            color: white;
+            cursor: pointer;
+            border-radius: 10px;
+            transition: 0.3s;
+        }
+        .left {
+            background-color: #4CAF50;
+        }
+        .left:hover {
+            background-color: #45a049;
+        }
+        .right {
+            background-color: #FF5733;
+        }
+        .right:hover {
+            background-color: #E74C3C;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="box left" onclick="location.href='articoli.html'">
+        Hai l’attenzione superiore a 15 secondi?
+    </div>
+    <div class="box right" onclick="location.href='https://www.instagram.com/TUA_PAGINA/'">
+        Hai l’attenzione inferiore a 15 secondi?
+    </div>
+</div>
+
+</body>
+</html>
